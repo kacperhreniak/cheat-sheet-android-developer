@@ -1,96 +1,96 @@
 # Computer Science
 ## OOP questions:
-- #### What's a `pure function`? 
+- #### `Pure` function 
 
     **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
     **Kotlin language** has no extra support for pure functions. 
 
-- #### What's a concept of `overriding methods`?
+- #### `Overriding methods`
 
     **Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
 
     **Kotlin language** allows to provide default implementation strictly 
 
-- #### What's a `overloading methods`?
-- #### What's a `operator overlading`? 
-- #### What's a `Inheritence` approach?
-- #### What's a `Composition` approach?
-- #### Waht's an `Abstraction` concept?
-- #### What's an `Encapsulation` concept?
-- #### What's an `equals()`?
-- #### What's a `hashCode()`?
+- #### `Overloading methods`
+- #### `Operator overlading` 
+- #### `Inheritence` approach
+- #### `Composition` approach
+- #### `Abstraction` concept
+- #### `Encapsulation` concept
+- #### `equals()`
+- #### `hashCode()`
 
 ## Backend JVM questions:
-- #### How `JVM` works?
-- #### What's a `Garbage collector`?
-- #### What's a `Memory leak`?
-- #### What's a `LRU` cache?
-- #### What's a `Thread`?
-- #### What's a `Process`?
+- #### How`JVM` works
+- #### `Garbage collector`?
+- #### `Memory leak`?
+- #### `LRU` cache?
+- #### `Thread`?
+- #### `Process`?
 
 ## Concepts
-- #### What's a `Dependecy Injection` pattern?
-- #### What's a `Service Locator` pattern?
-- #### Whats' a `Continous Integration`?
-- #### Whats' a `Continous Delivery`?
-- #### What's a `Mocking` / `Mock`?
-- #### What's a `concurency`? 
+- #### `Dependecy Injection` pattern?
+- #### `Service Locator` pattern?
+- #### `Continous Integration`?
+- #### `Continous Delivery`?
+- #### `Mocking` / `Mock`?
+- #### `concurency`? 
 
-- #### What's a `Consistency`?
-- #### What's a `Latency`?
-- #### What's a `Rest`?
-- #### What's a `HTTP protocol`?
-- #### What's a `Microservices architecture`?
-- #### What's a `Load Balacing`?
-- #### What's a `DNS`?
-- #### What's a `Bandwidth`?
-- #### what's a `Percentile`?
-- #### What does 200 HTTP status code group mean? 
-- #### What does 300 HTTP status code group mean? 
-- #### What does 400 HTTP status code group mean? 
-- #### What does 500 HTTP status code group mean? 
+- #### `Consistency`?
+- #### `Latency`?
+- #### `Rest`?
+- #### `HTTP protocol`?
+- #### `Microservices architecture`?
+- #### `Load Balacing`?
+- #### `DNS`?
+- #### `Bandwidth`?
+- #### `Percentile`?
+- #### Code group 200 HTTP status 
+- #### Code group 300 HTTP status code group 
+- #### Code group 400 HTTP status code group 
+- #### Code group 500 HTTP status code group 
 
 ## Security:
-- #### What's a `SSL pining`?
-- #### What's a `JWT Token`?
-- #### What's a `OAuth`?
-- #### What's a `refresh token`?
-- #### What's a `access token`?
+- #### `SSL pining`
+- #### `JWT Token`
+- #### `OAuth`
+- #### `refresh token`
+- #### `access token`
  
 ## Architecture
-- #### What's `Model` in architectures?
+- #### `Model` in architectures
 
     Model layer provides data to the system. This layer consists of repositories, use cases. It isn't just a model as an object, but all classes provide this object. 
 
-- #### What's `View` in architectures?
+- #### `View` in architectures
 
     View is a presentation layer. This layer consists of all classes connected to UI, View. For example on Android platform, the View part could be activity, fragment, xml file, method annotated as composable.
 
-- #### What's `ViewModel` in MVVM architecture?
+- #### `ViewModel` in MVVM architecture
 
 
-- #### What's `Presenter` in architectures?
+- #### `Presenter` in architecture
 
-- #### What's a `MVVM` architecture?
+- #### `MVVM` architecture
 
     Model, View, ViewModel
 
-- #### What's a `MVP` architecture?
+- #### `MVP` architecture
 
     Model, View, Presenter
 
-- #### What's a `MVI` architecture?
+- #### `MVI` architecture
 
     Model, View, Intent
 
-- #### What's a `Redux` architecture?
-- #### What's a `SOLID` principle?
+- #### `Redux` architecture
+- #### `SOLID` principle
 
 ## Protocols
-- #### What's a `HTTP protocol`?
-- #### What's a `TCP protocol`?
-- #### What's a `UDP protocol`?
+- #### `HTTP protocol`
+- #### `TCP protocol`
+- #### `UDP protocol`
 
 ## Code example
 
