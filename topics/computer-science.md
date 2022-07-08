@@ -12,13 +12,28 @@
 
     **Kotlin language** allows to provide default implementation strictly 
 
-- #### `Overloading methods`
+- #### `Overloading methods` 
 - #### `Operator overlading` 
-- #### `Inheritence` approach
 - #### `Composition` approach
+
+    Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
+
+- #### `Inheritence` approach
+
+    Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
+
 - #### `Abstraction` concept
+
+    Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
+
 - #### `Encapsulation` concept
+
+    Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
+
 - #### `equals()`
+
+    One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
+
 - #### `hashCode()`
 
 ## Backend JVM questions:
