@@ -3,26 +3,21 @@
 - #### `object`
 - #### `companion object`
 - #### Kotlin: `Inheritence`:
-
   All class in Kotlin inherit from common super class `Any`. By default class is final, and use `open` kewyword to make it inheritable.  
 
 - #### Methods in `Any`:
-
   equals(), hashCode(), toString()
 
 - #### Overriding methods
-
   Override methods is only allowed for `open` methods in `open class`, or implementing interface. Same for overriding properties. 
 
 - #### Overriding properties
-
   Override properties is only allowed for `open` properties in `open class`, or implementing interface. Same for overriding methods.
 
 - #### `data class`
+  A type of class in Kotlin designed to store data. Must have at least one property in a constructor, by default it generates the following method based on the properties defined in the constructor: equals(), hashCode(), copy(), componentN(), toString(). 
 
-    A type of class in Kotlin designed to store data. Must have at least one property in a constructor, by default it generates the following method based on the properties defined in the constructor: equals(), hashCode(), copy(), componentN(), toString(). 
-
-    More information: https://kotlinlang.org/docs/data-classes.html
+  More information: https://kotlinlang.org/docs/data-classes.html
 
 - #### `sealed class`
   Example of answers
@@ -30,57 +25,92 @@
 - #### `sealed class` and `enum`
   Example of answers
 
-- #### `backing field`
+- #### mutable or immutable property
+  val to provide immutable property and var to provide mutable property. val should be handle as default as always as possible.
+
+- #### `Field`
+  Field is only used as a part of a property to hold its value in memory. Fields cannot be decalred directly. Keyword `field` is only available in the accessor methods. 
+
+  Link: https://kotlinlang.org/docs/properties.html#backing-fields
+
 
 - #### `refied` modifier
-
-  Example
+  Refied type is available only in inline functions, to pass type of an expected object. It prevents developer agains using a reflection to find out type of the object. using refied types you can use opertaors: `as` and `is` 
 
 - #### `inline function`?
+  Inline functions is a function with keyword `inline`. It means that block of code from the function will be injected into another function. Inline function increases size of bytecode, by duplicate code, but it con optmize time especially for lambdas call in a loop a thousands of time.
 
+- #### Avoiding inline functions:
+  Inline function shouldn't be an option for a big functions, because of huge increase bytecode.
 
+- #### Inline function for Lambda
+  Firs, using lambda as inline function optimize createing and reducing object of lambda. The optimization could be noticed for lambda call in loop thousands of time. Second, when lambda use a property from the scope of lambda expression, under the hood it create new class with this proeprty as argument, so it isn't optimal solution when lambda is called in a loop. Inline function allows to prevent against cases like this. 
+
+- #### `inline class`
+  Inline class is used to create wrapping class with benefits of primitive values. To create inline class use `value` keyword with a single property. Using: wrapper for string to create self explanation class for example: `value class Name(val title: String)`. In compile time this class will be represented by String type.
+
+  More information: https://kotlinlang.org/docs/inline-classes.html
 
 - #### Could `lambad` use return expression?
-
-  Only when lambada is inlined
+  Return expression is only possible for lambda expression defined as inline function.
 
 - ### `High-order` function
-
-  is a function which takes function as parameter, or returns a function as result
+  High-order function function which takes function as parameter, or returns a function as result
 
   More information: https://kotlinlang.org/docs/lambdas.html#higher-order-functions
  
 - ### `Lambda` expression
-
-  is a function which is not decalred, but passed to function as expression.
+  Lambda is a function which is not decalred, but passed as expression. Under the hood lambdas is handle as class with single method. It could have an negative impact for optimalization for lambdas call in a loop thousands of times.
 
   More information: https://kotlinlang.org/docs/lambdas.html#lambda-expressions-and-anonymous-functions
  
-- #### `extension function`?
-
+- #### `extension function`
     Features build in Kotlin to add new functionality to class without inherit from the class or using extra design patterns. Extensions are resolved statically. 
 
     More information: https://kotlinlang.org/docs/extensions.html
 
-- #### `scope function`?
+- #### `scope function`
   Example of answers
 
 - #### Enumerate: `scope functions`
-
   run, let, apply, with, also
 
   More information: https://kotlinlang.org/docs/scope-functions.html
 
-- #### What's a `delegate` in Kotlin?
+- #### `Type alias`
+    Feature to provide alternative name for existing names. Type alias could be used to shorten long generic types, alternative way in case of two objects with same name of class add different package, specific name for function types, or even specific name for inner class.
+
+- #### `Delegation` in Kotlin?
+  Alternative way to provide inheritancem, by providing an interface to a class by composition and than use delegation to provide specific public memebres of this interface. Overriding works as you expect, so you can easily adjust your needs by override delegated member.
+
+  Example and more informaton: https://kotlinlang.org/docs/delegation.html
 
 
+- #### backing field:
+  Backing Fields is generated for property when one of the default accessr implementaiton is defined, or when custom impelemtation with reference to `field` is created. 
+
+  More information: https://kotlinlang.org/docs/properties.html#backing-fields
+
+- #### backing property:
+  Backing property is used to create custom accessor without reference to the `field`. For example: custom `get` accessor implementation for `isEmpty` property `this.size == 0` 
+
+
+- #### standard delegates properties
+  Gropu of dalagates avaiabale by default in Kotlin langauge: lazy(), observable(), delegate to other property
+
+- #### Delegated property: lazy
+  Funtion with lambda as argument and Lazy<T> as result of the function. It call lamda expression only once and further calls return stored result.
+
+- #### Delegated property: observable { }
+  TODO
 
 - #### Default `visbility modifier`
-
-  By default all class, methods and properties are `public`
+  Defualt visibili modifier for all class, methods and properties is `public`
 
 - #### `internal` visibility modifier?
+  TODO
 
+## Flow
 - #### Flow
 
 - #### StateFlow
@@ -99,15 +129,13 @@
 
   Answer: `StateFlow` - Activity should be able to received loaded data even after orientation changed. StateFlow hold data and emits last state for each consumer. 
 
+
+## Coroutines
 - #### `suspend` function
-
-  
-
 - #### `coroutine scope`
 - #### `launch` scope
 - #### `async` scope 
 - #### `coroutine`
 - #### Enumerate: Coroutines Dispatchers
 - #### Dispatcher (what's it)
-
 - #### How to change dispatcher
