@@ -36,11 +36,36 @@
 - #### How Modularization could improve build time?
 - #### Gradle: `api` and `implementation`?
 - #### Android - `Memory leak`
-- #### `Proguard`
+
+
+## Buil project
+- #### `Proguard rules`
+
+    defined in files with extension `.pro` to prevent some classes, methods or properties to being obfuscated. For example API models shoudln't be obfuscated. 
+
 - #### `R8`
+
+    Tool to optimaze application, by removeing unused methods, classes, resources or unreachable code.
+
+- #### `mapping.txt`
+
+    The file is generated when building the project to map the obfuscated names. It can be used to debug an obfuscated application or read stack trace errors on the production.  
+
+- #### `Obfuscation`
+
+    process to renamed all classes, functions or variables to simple, unreadable name to improve prevetion to reverse engeineer
+
 - #### `Lint`
+
+
+
 - #### `Detekt`
-- #### `Suppres`
+
+
+
+- #### `Suppress`
+
+    annotation with a name of compiler diagnostices to being ommited. For example: @Suppress("DEPRECATION")
 
 - #### How to handle `Process` and `Thread` in Android app?
 

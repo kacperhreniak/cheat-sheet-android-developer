@@ -1,4 +1,8 @@
 # Computer Science
+
+## Basics
+- #### GIT
+
 ## OOP questions:
 - #### `Pure` function 
 
@@ -100,7 +104,11 @@
     Model, View, Intent
 
 - #### `Redux` architecture
-- #### `SOLID` principle
+- #### `SOLID` principles
+
+- #### Enumerate: `SOLID` principles
+
+    Single responsobility, Open/Close, , Interface segregation, Dependency inversion
 
 ## Protocols
 - #### `HTTP protocol`

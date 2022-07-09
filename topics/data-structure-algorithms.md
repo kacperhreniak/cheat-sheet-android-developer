@@ -52,7 +52,54 @@
 
 - #### `data structure` to implement `BFS`?
 
- 
+## Graphs
+- #### `strongly connected components`
+
+    It means that in graph exists subgraph where all vertex are achivable.To find all of them se a Kosaraju's Algorithm - time complexity is O(V+E). This term is applicable only to directed graphs.
+
+- #### `connected graph`
+
+    it'a single graph, where all nodes (vertexes) have edge to the other nodex (vertex).
+
+- #### `unidirected graph`
+
+    It's a graph, where edges don't have any specifci direction, are bidirectional.
+
+- #### `spanning tree`
+
+    It's a minimum set of edges to connect all vertes in a single connected graph. 
+
+- #### minimum `spanning tree`
+
+    It's a spanning tree, where sum of edges used to create it is minimum. Algorithm to find MSP are Prime's and Kruskal's 
+
+- #### enumerate alghoritms to find minimum spanning tree
+
+    For example: Prime's algortihm and Kruskal's algohoritm
+
+    Links to alghrotims
+
+- #### adjacency list
+
+    It's a list of LinkedList to represent graph, where each item is a single connection between nodes and index is a single node. It consumes less memory space than adjacency matrix.
+
+- #### adjacency matrix
+
+   FIXME It's a representation of connection in graphs based on 2D-array of booleans. Each row and column is a number of specific node and boolean flag means connection or no connection between two nodes. 
+
+- #### Adventage of `adjacency list` over `adjacency matrix`:
+
+    Adjacency list mostly time requries less memory space than adjacency matrix.
+
+
+- #### Pros of adjacency matrix:
+    https://www.programiz.com/dsa/graph-adjacency-matrix
+    
+
+- #### Bellamn Ford's algortihm
+
+    shotests path in weigthed graph with negative weight edges
+    
 ## Ideas to reslove Alghoritm or Data structure for problem:
 - #### Find `Kth smallest element` from an Array
     Answer: Put all item to minimum `Heap` and the get first Kth elements
