@@ -1,7 +1,11 @@
 # Kotlin
 
+## Basic
 - #### `object`
+  Object declaration is way to handle singleon in Kotlin. Object is available globally - there is no local value and object cannot be used as right assigment statement. Inialization of object is done on firs access.
 - #### `companion object`
+  companion object is used to object declaration inside class. Name of the companion object can be omitted and outer class is used as qulifier.
+
 - #### Kotlin: `Inheritence`:
   All class in Kotlin inherit from common super class `Any`. By default class is final, and use `open` kewyword to make it inheritable.  
 
@@ -20,7 +24,12 @@
   More information: https://kotlinlang.org/docs/data-classes.html
 
 - #### `sealed class`
-  Example of answers
+  Sealead class allows for more conrol of inheritance. Subclasses could be only created in same module. All subclasses are known druing compilation and opposite to the enum class can have more instances with its own state.
+
+  More information: https://kotlinlang.org/docs/sealed-classes.html
+
+- #### `enum class`
+  TODO
 
 - #### `sealed class` and `enum`
   Example of answers
@@ -65,9 +74,12 @@
   More information: https://kotlinlang.org/docs/lambdas.html#lambda-expressions-and-anonymous-functions
  
 - #### `extension function`
-    Features build in Kotlin to add new functionality to class without inherit from the class or using extra design patterns. Extensions are resolved statically. 
+  Features build in Kotlin to add new functionality to class without inherit from the class or using extra design patterns. Extensions are resolved statically. 
 
-    More information: https://kotlinlang.org/docs/extensions.html
+  More information: https://kotlinlang.org/docs/extensions.html
+
+- #### Extension are resolved statically
+  Extension is not adding new memeber into a class, so it's strongly connected to the specific type. Extensions are not inherited FIXME!!!! 
 
 - #### `scope function`
   Example of answers
@@ -78,7 +90,7 @@
   More information: https://kotlinlang.org/docs/scope-functions.html
 
 - #### `Type alias`
-    Feature to provide alternative name for existing names. Type alias could be used to shorten long generic types, alternative way in case of two objects with same name of class add different package, specific name for function types, or even specific name for inner class.
+  Feature to provide alternative name for existing names. Type alias could be used to shorten long generic types, alternative way in case of two objects with same name of class add different package, specific name for function types, or even specific name for inner class.
 
 - #### `Delegation` in Kotlin?
   Alternative way to provide inheritancem, by providing an interface to a class by composition and than use delegation to provide specific public memebres of this interface. Overriding works as you expect, so you can easily adjust your needs by override delegated member.
@@ -112,14 +124,22 @@
 
 ## Flow
 - #### Flow
+  Flow is used to handle stream of multiple value in asynchronous way - it's similar to a sequence. Flows are cold, so it means that code insied flow isn't handled until it is collected.
+
+  More infomrmation: https://kotlinlang.org/docs/flow.html#flows
 
 - #### StateFlow
+  StateFlow stores last emitted value and returns it to all collectors. It could be use to store current state of a system. StateFlow is similar to LiveData with small diferences. StateFlow requires initial state, and by defualt is not a lifecycle aware.
+
+  More information: https://developer.android.com/kotlin/flow/stateflow-and-sharedflow
 
 - #### SharedFlow
-  
-- #### StateFlow vs Flow
+  SharedFlow emits value to all its collectors, and it is hot flow. It could be used to tick collectors to handle an event.
 
-- #### SharedFlow vs Flow
+  More information: https://developer.android.com/kotlin/flow/stateflow-and-sharedflow
+  
+- #### Flow: `shareIn`
+  Method shareIn convert StateFlow into SharedFlow and it coule be use to tick all collector, when new state will be available. It convert cold flow into hot flow.
 
 - #### FLow or StateFlow or SharedFlow to inform about Snackbar
 
@@ -132,10 +152,13 @@
 
 ## Coroutines
 - #### `suspend` function
+- #### `coroutine`
+- #### `coroutine` vs `thread`
+
 - #### `coroutine scope`
 - #### `launch` scope
 - #### `async` scope 
-- #### `coroutine`
+
 - #### Enumerate: Coroutines Dispatchers
 - #### Dispatcher (what's it)
 - #### How to change dispatcher

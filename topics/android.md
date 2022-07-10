@@ -17,6 +17,9 @@
 
     More information: https://developer.android.com/guide/components/activities/activity-lifecycle#alc
 
+- #### Lifecycle aware
+    TODO
+
 - #### Lifecycle: `Activity has focus`
     onResume()
     

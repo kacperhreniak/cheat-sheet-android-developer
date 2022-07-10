@@ -14,8 +14,12 @@
 
     **Kotlin language** allows to provide default implementation strictly 
 
-- #### `Overloading methods` 
-- #### `Operator overlading` 
+- #### `Overloading methods`
+    OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
+
+- #### `Operator overloading` 
+    Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
+
 - #### `Composition` approach
     Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
 
@@ -38,8 +42,8 @@
 - #### `Garbage collector`
 - #### `Memory leak`
 - #### `LRU` cache
-- #### `Thread`
 - #### `Process`
+- #### `Thread`
 
 ## Concepts
 - #### `Dependecy Injection` pattern
@@ -49,21 +53,63 @@
 - #### `Mocking` / `Mock`
 - #### `concurency`
 
-- #### `Consistency`
-- #### `Latency`
 - #### `Rest`
-- #### `HTTP protocol`
 - #### `Microservices architecture`
+
+
 - #### `Load Balacing`
+
+
 - #### `DNS`
+    Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
+
 - #### `Bandwidth`
+    Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
+
+- #### `Latency`
+    Latency is time needed to perform an action, or produce a result.
+
+    More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
+
+- #### Throughput 
+    Throughput is a number of perfomred actions or produced results per unit of time.
+
+    More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
+
+- #### Distributed computer system problems:
+    Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
+
+    More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
+
+- #### DCS: `Availability`
+    Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
+    
+- #### DCS: `Consistency`
+    Consistency means that every client recevies last version of information or an error.
+
+- #### DCS: `Partition Tolerance`
+    TODO
+
 - #### `Percentile`
+    Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
+
 - #### Code group 200 HTTP status 
+    Response codes 200+ mean Succesful repsonse. For example: 200 OK, 201 Created, 204 No Content. 
+
 - #### Code group 300 HTTP status code group 
+    Repsonse codes 300+ mean Redirection messages. For example, 301 Moved Permanently, 302 Found, 304 Not Modified
+
 - #### Code group 400 HTTP status code group 
-- #### Code group 500 HTTP status code group 
-- #### Horizontal scalling
-- #### Vertoical scalling
+    Repsonse codes 400+ mean Client error responses. For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
+
+- #### Code group 500 HTTP status code group
+    Response code 500+ means Server error response. For example, 500 Internal Server error, 503 Service Unavailable.
+
+- #### `Horizontal` scalling
+    Scalling by adding more servers to a poll of resources.
+
+- #### `Vertical` scalling
+    Scalling by increasing capability of servers. 
 
 ## Security:
 - #### `SSL pining`
@@ -74,15 +120,12 @@
  
 ## Architecture
 - #### `Model` in architectures
-
     Model layer provides data to the system. This layer consists of repositories, use cases. It isn't just a model as an object, but all classes provide this object. 
 
 - #### `View` in architectures
-
     View is a presentation layer. This layer consists of all classes connected to UI, View. For example on Android platform, the View part could be activity, fragment, xml file, method annotated as composable.
 
 - #### `ViewModel` in MVVM architecture
-
 
 - #### `Presenter` in architecture
 
