@@ -151,14 +151,29 @@
 
 
 ## Coroutines
-- #### `suspend` function
+
 - #### `coroutine`
 - #### `coroutine` vs `thread`
 
-- #### `coroutine scope`
-- #### `launch` scope
-- #### `async` scope 
+- #### `suspend` function
+  Suspend function is a funcion with special `suspend` modifier and it means asynchronous functions. That function could be stop in any time, and resume later. Suspend function could be call from another suspend funcion, or insied coruoutine
 
-- #### Enumerate: Coroutines Dispatchers
-- #### Dispatcher (what's it)
-- #### How to change dispatcher
+
+- ### Enumarate corouine dispatchers:
+  `Main` and  `IO` and `Default`
+
+- #### `coroutine scope`
+  Coroutine scope defines a scope of execution of coroutine, and it is strongly connected to a lifecycle of element, where coroutine scope has been created (e.g., ViewModel from jetpack compose contains `viewModelScope` and all coroutines in ViewModel should be handled by it). 
+
+- #### `launch`
+  `launch` is a coroutine builder that start new coroutine and returns jobs instead of any specific data. Think about `launch` coroutine builder as `fire and forget`.
+
+- #### `async`
+  Prompt: What's a async coroutine builder? How to use .await() method?
+
+  `asyc` is a coroutine builder that start a new coroutine and retrun expected result as `Deffered<T>`. Deffered type provides `.await()` to stop an execution of the code in current line, and resume it when result will be available.
+
+- #### Dispatcher
+  Prompt: What's a dispatcher? How to change it?
+
+  Dispatcher defines thread to call corouine on. Dispatcher coulde be defined by coroutine builder, or inside suspend function by usint method `withContext(...)`

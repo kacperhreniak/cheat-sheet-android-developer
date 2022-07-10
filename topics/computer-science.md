@@ -3,6 +3,10 @@
 ## Basics
 - #### GIT
 
+- #### `Process`
+
+- #### `Thread`
+
 ## OOP questions:
 - #### `Pure` function 
     **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
@@ -42,8 +46,6 @@
 - #### `Garbage collector`
 - #### `Memory leak`
 - #### `LRU` cache
-- #### `Process`
-- #### `Thread`
 
 ## Concepts
 - #### `Dependecy Injection` pattern
@@ -55,8 +57,6 @@
 
 - #### `Rest`
 - #### `Microservices architecture`
-
-
 - #### `Load Balacing`
 
 
@@ -142,11 +142,23 @@
     Model, View, Intent
 
 - #### `Redux` architecture
-- #### `SOLID` principles
+- #### Enumarate `SOLID` principles
+    Single responsobility, Open/Close, Liskov substitution principle, Interface segregation, Dependency inversion
 
-- #### Enumerate: `SOLID` principles
+- #### SOLID: `Single responsibility principle`
+    There should never be more than one reason for a class to change. In other words, every class should have only one responsibility.
 
-    Single responsobility, Open/Close, , Interface segregation, Dependency inversion
+- #### SOLID: `open/close principle`
+    Class is open for extension, and closed for modification.
+   
+- #### SOLID: `Liskov substitution principle`
+    TODO
+
+- #### SOLID: `Interface segregation`
+    Many specific interafces are better than single interafce with many responsibilites.
+
+- #### SOLID: `Dependency inversion`
+    High level class shouldn't depends on low level implementation instead of an implementation it should operates on abstraction layer.
 
 ## Protocols
 - #### `HTTP protocol`
