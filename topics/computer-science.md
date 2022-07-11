@@ -7,6 +7,8 @@
 
 - #### `Thread`
 
+- #### Model TCP/IP OSI
+
 ## OOP questions:
 - #### `Pure` function 
     **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
@@ -158,12 +160,16 @@
     Many specific interafces are better than single interafce with many responsibilites.
 
 - #### SOLID: `Dependency inversion`
-    High level class shouldn't depends on low level implementation instead of an implementation it should operates on abstraction layer.
+    High level class shouldn't depends on low level implementation instead of it the class should based on abstraction layers.
 
 ## Protocols
 - #### `HTTP protocol`
 - #### `TCP protocol`
 - #### `UDP protocol`
+- #### `RTMP protocol` 
+    Real-Time Messaging Protocol
+
+    Example of use: LiveStreaming
 
 ## Code example
 
