@@ -1,7 +1,7 @@
 # Android platform
 
 ### Describe a common `Tech Stack` used to implement `App`? 
-## `Activity` Lifecycle
+### `Activity` Lifecycle
 onCreate() - onstart() - on resume() - onPause() - onStop() - onDestroy() 
 
 Lifecycle defines state of activity. Methods are used as collbacks invoke by the system
