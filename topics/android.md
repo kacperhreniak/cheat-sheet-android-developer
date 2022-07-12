@@ -1,6 +1,10 @@
 # Android platform
 
-### Describe a common `Tech Stack` used to implement `App`? 
+### **Typical `Tech Stack` of `Android App`**
+```
+TODO
+```
+
 ### **Activity Lifecycle** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 ```
 onCreate() - onstart() - on resume() - onPause() - onStop() - onDestroy()
@@ -17,7 +21,9 @@ onAttach(), onCreateView(), onViewCreated(), onDetach()
 onStart() 
 ```
 ### **Lifecycle aware**
+```
 TODO
+```
 
 ### **Lifecycle: When Activity has focus** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 ```
@@ -29,10 +35,25 @@ onResume()
 Acitivty is destroyed and creaetd again. All callbacks till onDestroy() are invoked, and then onCreate() is called.   
 ```
 
-### What's a `Module` in Android app?
-### How Modularization could improve build time?
-### Gradle: `api` and `implementation`?
-### Android - `Memory leak`
+### **What's a Module**
+```
+TODO
+```
+
+### **Pros of Modularization**
+```
+TODO
+```
+
+### **Gradle: `api` and `implementation`**
+```
+TODO
+```
+
+### **Memory leaks in Android**
+```
+TODO
+```
 
 ## Buil project
 
@@ -72,15 +93,33 @@ Annotation with a name of compiler diagnostices to being ommited. For example: @
 ```
 
 ### How to handle `Process` and `Thread` in Android app?
+```
+TODO
+```
 
-## UI
+## **User Interface**
 
 ### Describe an `imperative way` to define UI
-### Describe a `declarative way` to define UI
-### `Jetpack compose`
-### Describes libraries in Jetpack
+```
+TODO
+```
 
-## Store data
+### Describe a `declarative way` to define UI
+```
+TODO
+```
+
+### `Jetpack compose`
+```
+TODO
+```
+
+### Describes libraries in Jetpack
+```
+TODO
+```
+
+## **Store data**
 
 ### **DataStore**
 ```
@@ -102,7 +141,7 @@ TODO
 TODO
 ```
 
-## Jetpack
+## **Jetpack**
 
 ### **WorkManager**
 ```

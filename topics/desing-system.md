@@ -1,11 +1,25 @@
-# System desing
+# System design
 
 ## Basic knowledge
 
 ## Protocols
 
 ## Calculations
-. 
+
+### **Basic size of files**
+```
+TODO
+```
+
+### **Estimate data usage**
+```
+TODO
+```
+
+### **Estimate storage**
+```
+TODO
+```
 
 # Task
 

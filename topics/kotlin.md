@@ -164,7 +164,7 @@ Defualt visibili modifier for all class, methods and properties is `public`
 ```
 `internal` modifier defines that class, interface or theris memebrs are visibile within the same module. Module is a set of kotlin files compiled together, for example, Intelij IDE module, maven project, gradle source set, or kotline files compile with on invocation of kotlinc ant task.
 ```
-## Flow
+## **Flow**
 
 ### **Flow** - [more](https://kotlinlang.org/docs/flow.html#flows)
 ```
@@ -195,7 +195,7 @@ Answer: `SharedFlow` - Sanckbar should be shown only once, even after configurat
 Answer: `StateFlow` - Activity should be able to received loaded data even after orientation changed. StateFlow hold data and emits last state for each consumer. 
 ```
 
-## Coroutines
+## **Coroutines**
 
 ### **coroutine**
 ```
@@ -207,12 +207,12 @@ TODO
 TODO
 ```
 
-### **suspend** function
+### **`suspend` function**
 ```
 Suspend function is a funcion with special `suspend` modifier and it means asynchronous functions. That function could be stop in any time, and resume later. Suspend function could be call from another suspend funcion, or insied coruoutine
 ```
 
-### Enumarate **coroutine dispatchers**
+### **Enumarate `coroutine dispatchers`**
 ```
 `Main` and  `IO` and `Default`
 ```

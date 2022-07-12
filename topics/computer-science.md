@@ -1,177 +1,362 @@
-## Computer Science
+## **Computer Science**
 
-### GIT
-### `Process`
-### `Thread`
-### Model TCP/IP OSI
+### **GIT**
+```
+TODO
+```
 
-## OOP questions:
+### **Process**
+```
+TODO
+```
 
-### `Pure` function 
+### **Thread**
+```
+TODO
+```
+
+### **Model TCP/IP OSI**
+```
+TODO
+```
+
+## **OOP questions**
+
+### **Pure function** 
+```
 **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
 **Kotlin language** has no extra support for pure functions. 
+```
 
-### `Overriding methods`
+### **Overriding methods**
+```
 **Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
 
 **Kotlin language** allows to provide default implementation strictly 
+```
 
-### `Overloading methods`
+### **Overloading methods**
+```
 OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
+```
 
-### `Operator overloading` 
+### **Operator overloading** 
+```
 Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
+```
 
-### `Composition` approach
+### **Composition approach**
+```
 Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
+```
 
-### `Inheritence` approach
+### **Inheritence approach**
+```
 Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
+```
 
-### `Abstraction` concept
+### **Abstraction concept**
+```
 Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
+```
 
-### `Encapsulation` concept
+### **Encapsulation concept**
+```
 Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
+```
 
-### `equals()`
+### **equals()**
+```
 One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
+```
 
-### `hashCode()`
+### **hashCode()**
+```
+TODO
+```
 
-## Backend JVM questions:
+## **Backend JVM questions**
 
 ### How`JVM` works
+```
+TODO
+```
+
 ### `Garbage collector`
+```
+TODO
+```
+
 ### `Memory leak`
+```
+TODO
+```
+
 ### `LRU` cache
+```
+TODO
+```
 
 ## Concepts
 
 ### `Dependecy Injection` pattern
+```
+TODO
+```
+
 ### `Service Locator` pattern
+```
+TODO
+```
+
 ### `Continous Integration`
+```
+TODO
+```
+
 ### `Continous Delivery`
+```
+TODO
+```
+
 ### `Mocking` / `Mock`
+```
+TODO
+```
+
 ### `concurency`
+```
+TODO
+```
+
 ### `Rest`
+```
+TODO
+```
+
 ### `Microservices architecture`
+```
+TODO
+```
+
 ### `Load Balacing`
+```
+TODO
+```
 
 ### `DNS`
+```
 Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
+```
 
 ### `Bandwidth`
+```
 Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
+```
 
-### `Latency`
+### `Latency` - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+```
 Latency is time needed to perform an action, or produce a result.
+```
 
-More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
-
-### Throughput 
+### Throughput - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+```
 Throughput is a number of perfomred actions or produced results per unit of time.
+```
 
-More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
-
-### Distributed computer system problems:
+### Distributed computer system problems - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+```
 Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
-
-More information: https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6
+```
 
 ### DCS: `Availability`
+```
 Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
+```
 
 ### DCS: `Consistency`
+```
 Consistency means that every client recevies last version of information or an error.
+```
 
 ### DCS: `Partition Tolerance`
+```
 TODO
+```
 
 ### `Percentile`
+```
 Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
+```
 
 ### Code group 200 HTTP status 
+```
 Response codes 200+ mean Succesful repsonse. For example: 200 OK, 201 Created, 204 No Content. 
+```
 
 ### Code group 300 HTTP status code group 
+```
 Repsonse codes 300+ mean Redirection messages. For example, 301 Moved Permanently, 302 Found, 304 Not Modified
+```
 
 ### Code group 400 HTTP status code group 
+```
 Repsonse codes 400+ mean Client error responses. For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
+```
 
 ### Code group 500 HTTP status code group
+```
 Response code 500+ means Server error response. For example, 500 Internal Server error, 503 Service Unavailable.
+```
 
 ### `Horizontal` scalling
+```
 Scalling by adding more servers to a poll of resources.
+```
 
 ### `Vertical` scalling
+```
 Scalling by increasing capability of servers. 
+```
 
-## Security:
+## **Security**
+
+### **SSL**
+```
+Secure Socket Layer
+```
+
+### **TLS**
+```
+Transport Layer Security
+```
 
 ### `SSL pining`
-### `JWT Token`
-### `OAuth`
-### `refresh token`
-### `access token`
+```
+TODO
+```
 
-## Architecture
+### `JWT Token`
+```
+TODO
+```
+
+### `OAuth`
+```
+TODO
+```
+
+### `refresh token`
+```
+TODO
+```
+
+### `access token`
+```
+TODO
+```
+
+
+## **Architecture**
 
 ### `Model` in architectures
+```
 Model layer provides data to the system. This layer consists of repositories, use cases. It isn't just a model as an object, but all classes provide this object. 
+```
 
 ### `View` in architectures
+```
 View is a presentation layer. This layer consists of all classes connected to UI, View. For example on Android platform, the View part could be activity, fragment, xml file, method annotated as composable.
+```
 
 ### `ViewModel` in MVVM architecture
+```
+TODO
+```
+
 ### `Presenter` in architecture
+```
+TODO
+```
+
 ### `MVVM` architecture
+```
 Model, View, ViewModel
+```
 
 ### `MVP` architecture
+```
 Model, View, Presenter
+```
 
 ### `MVI` architecture
+```
 Model, View, Intent
+```
 
 ### `Redux` architecture
+```
+TODO
+```
+
 ### Enumarate `SOLID` principles
+```
 Single responsobility, Open/Close, Liskov substitution principle, Interface segregation, Dependency inversion
+```
 
 ### SOLID: `Single responsibility principle`
+```
 There should never be more than one reason for a class to change. In other words, every class should have only one responsibility.
+```
 
 ### SOLID: `open/close principle`
+```
 Class is open for extension, and closed for modification.
+```
 
 ### SOLID: `Liskov substitution principle`
+```
 TODO
+```
 
 ### SOLID: `Interface segregation`
+```
 Many specific interafces are better than single interafce with many responsibilites.
+```
 
 ### SOLID: `Dependency inversion`
+```
 High level class shouldn't depends on low level implementation instead of it the class should based on abstraction layers.
+```
 
-## Protocols
+## **Protocols**
 
-### `HTTP` protocol
-### `TCP` protocol
-### `UDP` protocol
-### `RTMP` protocol 
+### **Protocol: HTTP**
+```
+TODO
+```
+
+### **Protocol: TCP**
+```
+TODO
+```
+
+### **Protocol: UDP**
+```
+TODO
+```
+
+### **Protocol: SSH**
+```
+TODO
+```
+
+### **Protocol: RTMP** 
+```
 Real-Time Messaging Protocol
 
 Example of use: LiveStreaming
+```
 
-## Code example
-
-## Design system
-
-### Basic size of files
-### (Dis)Advetages of SQL
-### (Dis)Advetages of NoSQL 
-### Estimate data usage
-### Estimate storage
+## **Code example**
