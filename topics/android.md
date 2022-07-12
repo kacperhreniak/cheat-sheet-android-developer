@@ -1,22 +1,21 @@
 # Android platform
 
 ### Describe a common `Tech Stack` used to implement `App`? 
-### **Activity Lifecycle**
+### **Activity Lifecycle** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 ```
 onCreate() - onstart() - on resume() - onPause() - onStop() - onDestroy()
 Lifecycle defines state of activity. Methods are used as collbacks invoke by the system 
-
-More information: https://developer.android.com/guide/components/activities/activity-lifecycle#alc
 ```
-### **Fragment Lifecycle**
-onAttach(), onCreateView(), onViewCreated(), onDetach() \
-More information: https://developer.android.com/guide/fragments/lifecycle#states
 
-### Lifecycle: `Activity is visible`
-onStart()
+### **Fragment Lifecycle** - [more](https://developer.android.com/guide/fragments/lifecycle#states)
+```
+onAttach(), onCreateView(), onViewCreated(), onDetach()
+```
 
-More information: https://developer.android.com/guide/components/activities/activity-lifecycle#alc
-
+### Lifecycle: when Activity is visible - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
+```
+onStart() 
+```
 ### Lifecycle aware
 TODO
 
