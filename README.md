@@ -1,5 +1,8 @@
 # Cheat sheet: Android Developer Role
 
+## Intro
+
+
 ## Content 
 1. [Android](./topics/android.md)
 1. [Kotlin](./topics/kotlin.md) 
