@@ -8,7 +8,7 @@ Lifecycle defines state of activity. Methods are used as collbacks invoke by the
 More information: https://developer.android.com/guide/components/activities/activity-lifecycle#alc
 
 ### **Fragment Lifecycle**
-onAttach(), onCreateView(), onViewCreated(), onDetach()
+onAttach(), onCreateView(), onViewCreated(), onDetach() \
 More information: https://developer.android.com/guide/fragments/lifecycle#states
 
 ### Lifecycle: `Activity is visible`
