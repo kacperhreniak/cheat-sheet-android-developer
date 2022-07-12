@@ -30,7 +30,7 @@ Override methods is only allowed for `open` methods in `open class`, or implemen
 Override properties is only allowed for `open` properties in `open class`, or implementing interface. Same for overriding methods.
 ```
 
-### **data class** -[more](https://kotlinlang.org/docs/data-classes.html)
+### **data class** - [more](https://kotlinlang.org/docs/data-classes.html)
 ```
 A type of class in Kotlin designed to store data. Must have at least one property in a constructor, by default it generates the following method based on the properties defined in the constructor: equals(), hashCode(), copy(), componentN(), toString(). 
 ```

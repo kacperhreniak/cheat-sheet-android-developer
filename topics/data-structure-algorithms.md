@@ -26,16 +26,6 @@ Time Complexity defines time taken by the algorithm to complete its execution.
 Space complexity defines space needed by the alorithm during the execution. 
 ```
 
-### Concept of `Dynamic Programming`
-```
-TODO
-```
-
-### Concept of `Dizel i zwyciezaj`
-```
-TODO
-```
-
 ### **Data structure: Stack**
 ```
 TODO
@@ -51,6 +41,11 @@ TODO
 TODO
 ```
 
+### **Data structure: Read/Black Tree**
+```
+TODO
+```
+
 ### **minimum value from Minimum Heap**
 ```
 Get first item from an array. Time complexity - O(1)
@@ -60,10 +55,10 @@ Get first item from an array. Time complexity - O(1)
 ```
 It's a type of Tree Data Structure. Each node has maximum 2 children nodes, A value in the left child is less then value in root node, and value in right child is greater then value in root node. 
 ```
-
 ### How a `HashMap` works?
 ### How `Hashing` works?
 ### Handling `collision` in `HashMap`
+
 ### `Time complexity` of getting object from HashMap
 ```
 Constant time - O(1).
@@ -105,6 +100,16 @@ Stack - during traversal push/pop node from/to the stack
 ```
 
 ### `data structure` to implement `BFS`?
+```
+Queue
+```
+
+### Concept of `Dynamic Programming`
+```
+TODO
+```
+
+### Concept of `Dizel i zwyciezaj`
 ```
 TODO
 ```

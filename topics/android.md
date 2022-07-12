@@ -56,32 +56,65 @@ The file is generated when building the project to map the obfuscated names. It 
 Obfuscation is a process to renamed all classes, functions or variables to simple, unreadable name to improve prevetion to reverse engeineer
 ```
 
-### `Lint`
+### **Lint**
+```
 TODO
+```
 
-### `Detekt`
+### **Detekt**
+```
 TODO
+```
 
-### `Suppress`
+### **Suppress**
+```
 Annotation with a name of compiler diagnostices to being ommited. For example: @Suppress("DEPRECATION")
+```
 
 ### How to handle `Process` and `Thread` in Android app?
 
 ## UI
 
-### Describe an `imperative way` to define UI?
-### Describe a `declarative way` to define UI?
+### Describe an `imperative way` to define UI
+### Describe a `declarative way` to define UI
 ### `Jetpack compose`
 ### Describes libraries in Jetpack
 
 ## Store data
 
-### `DataStore`
-### `Shared preferences`
-### `Room`
-### `SQLite`
+### **DataStore**
+```
+TODO
+```
+
+### **Shared preferences**
+```
+TODO
+```
+
+### **Room**
+```
+TODO
+```
+
+### **SQLite**
+```
+TODO
+```
 
 ## Jetpack
 
-### `WorkManager`
+### **WorkManager**
+```
+TODO
+```
 
+### **JobScheduler**
+```
+TODO
+```
+
+### **Jetpack compose**
+```
+TODO
+```
