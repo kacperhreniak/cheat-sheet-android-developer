@@ -90,7 +90,7 @@ Inline class is used to create wrapping class with benefits of primitive values.
 Return expression is only possible for lambda expression defined as inline function.
 ```
 
-### **High-order function** - [more] - (https://kotlinlang.org/docs/lambdas.html#higher-order-functions)
+### **High-order function** - [more](https://kotlinlang.org/docs/lambdas.html#higher-order-functions)
 ```
 High-order function function which takes function as parameter, or returns a function as result
 ```
