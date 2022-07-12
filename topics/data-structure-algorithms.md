@@ -1,21 +1,66 @@
 # Data structure and Algorithms
 
-### `Big O Notation`
+### **Big O Notation**
+```
+Big O Notation is a way to measure an algorithm's efficiency. It measures the time it takes to run your function as the input grows. Or in other words, how well does the function scale. There are two parts to measuring efficiency — time complexity and space complexity
+It’s the upper bound of algorithm
+```
+Time complexity cheat sheet - https://miro.medium.com/max/1400/1*J8w0UxN-D5dqtWV4Dl3vXQ.png
+
+### **Time/Space complexity - Notations**
+```
+Other notations: Big Theta and Big Omega
+
+The difference between Big O notation and Big Ω notation is that Big O is used to describe the worst-case running time for an algorithm. But, Big Ω notation, on the other hand, is used to describe the best-case running time for a given algorithm.
+
+Big Theta = Big O and Big Omega
+```
+
 ### `Time Complexity`
+```
+Time Complexity defines time taken by the algorithm to complete its execution.
+```
+
 ### `Space Complexity`
+```
+Space complexity defines space needed by the alorithm during the execution. 
+```
+
 ### Concept of `Dynamic Programming`
+```
+TODO
+```
+
 ### Concept of `Dizel i zwyciezaj`
-### Data structure: `Stack`
-### Data structure: `Trie`
-### Data structure: `Heap`
-### How to get minimum value from **Minimum Heap**?
+```
+TODO
+```
+
+### **Data structure: Stack**
+```
+TODO
+```
+
+### **Data structure: Trie**
+```
+TODO
+```
+
+### **Data structure: Heap**
+```
+TODO
+```
+
+### **minimum value from Minimum Heap**
 ```
 Get first item from an array. Time complexity - O(1)
 ```
+
 ### Data structure: `Binary Search Tree`
 ```
 It's a type of Tree Data Structure. Each node has maximum 2 children nodes, A value in the left child is less then value in root node, and value in right child is greater then value in root node. 
 ```
+
 ### How a `HashMap` works?
 ### How `Hashing` works?
 ### Handling `collision` in `HashMap`
