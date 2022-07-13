@@ -14,12 +14,12 @@
 
 ## **OOP questions**
 
-### **Pure function** `easy`
+###  :grey_question: **Pure function** `easy`
 **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
 **Kotlin language** has no extra support for pure functions. 
 
-### **Overriding methods** `easy`
+### :grey_question: **Overriding methods** `easy`
 **Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
 
 **Kotlin language** allows to provide default implementation strictly 
