@@ -14,21 +14,21 @@
 
 ## **OOP questions**
 
-- ### **Pure function** `easy`
-    **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
+### **Pure function** `easy`
+**Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
-    **Kotlin language** has no extra support for pure functions. 
+**Kotlin language** has no extra support for pure functions. 
 
-- ### **Overriding methods** `easy`
-    **Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
+### **Overriding methods** `easy`
+**Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
 
-    **Kotlin language** allows to provide default implementation strictly 
+**Kotlin language** allows to provide default implementation strictly 
 
-- ### **Overloading methods** `easy`
-    OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
+### **Overloading methods** `easy`
+OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
 
-- ### **Operator overloading** `medium`
-    Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
+### **Operator overloading** `medium`
+Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
 
 - ### **Composition approach** `[easy]`
     Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
