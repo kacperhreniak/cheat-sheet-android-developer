@@ -20,33 +20,29 @@ Callbacks:
 - onStop() 
 - onDestroy()
 
-
-
 ### **Fragment Lifecycle** - [more](https://developer.android.com/guide/fragments/lifecycle#states)
-onAttach(), onCreateView(), onViewCreated(), onDetach()
+Callbacks:
+- onAttach(), 
+- onCreateView(), 
+- onViewCreated(),
+- onDetach()
 
 ### Lifecycle: when Activity is visible - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 onStart() 
 
 ### **Lifecycle aware**
-```
-TODO
-```
+Lifecycle aware means that object is aware of the activity or fragment lifecycler, and we can assume that all events are happend only when LifecyclerOwner is able to rander, handel it.
+
 
 ### **Lifecycle: When Activity has focus** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
-```
 onResume()
-```
+
 
 ### **Lifecycle: orientation changed** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
-```
-Acitivty is destroyed and creaetd again. All callbacks till onDestroy() are invoked, and then onCreate() is called.   
-```
+Acitivty is destroyed and creaetd again. All callbacks till onDestroy() are invoked, and then onCreate() is called again.   
 
 ### **What's a Module**
-```
-TODO
-```
+Module is a set of files compiled together, for example, Module created via Intelij IDE. Dividing code into small modules could optimize build time.
 
 ### **Pros of Modularization**
 ```
@@ -54,10 +50,9 @@ TODO
 ```
 
 ### **Gradle: `api` and `implementation`**
-```
-TODO
-```
-
+- **api** is used when dependency is used as input of outpuf for interfaces, classes visibile from ohers modules.
+- **implementation** is used for adding dependecies requried only for in-module purpose 
+ 
 ### **Memory leaks in Android**
 ```
 TODO
@@ -66,24 +61,16 @@ TODO
 ## Buil project
 
 ### **Proguard rules**
-```
 Proguard rules are defined in files with `.pro` extension to prevent classes, methods or properties to being obfuscated. For example API models shoudln't be obfuscated. 
-```
 
 ### **R8**
-```
 Tool to optimaze application, by removeing unused methods, classes, resources or unreachable code.
-```
 
-### **mapping.txt**
-```
+### File: **mapping.txt**
 The file is generated when building the project to map the obfuscated names. It can be used to debug an obfuscated application or read stack trace errors on the production.  
-```
 
 ### **Obfuscation**
-```
 Obfuscation is a process to renamed all classes, functions or variables to simple, unreadable name to improve prevetion to reverse engeineer
-```
 
 ### **Lint**
 ```
@@ -96,9 +83,7 @@ TODO
 ```
 
 ### **Suppress**
-```
 Annotation with a name of compiler diagnostices to being ommited. For example: @Suppress("DEPRECATION")
-```
 
 ### How to handle `Process` and `Thread` in Android app?
 ```
