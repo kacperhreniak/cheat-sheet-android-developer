@@ -1,100 +1,69 @@
 ## **Computer Science**
 
-### **GIT**
-```
-TODO
-```
+- ### **GIT**
+   TODO
 
-### **Process**
-```
-TODO
-```
+- ### **Process**
+    TODO
 
-### **Thread**
-```
-TODO
-```
+- ### **Thread**
+    TODO
 
-### **Model TCP/IP OSI**
-```
-TODO
-```
+- ### **Model TCP/IP OSI**
+    TODO
 
 ## **OOP questions**
 
-### **Pure function** 
-**Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
+- ### **Pure function** `[easy]`
+    **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
-**Kotlin language** has no extra support for pure functions. 
+    **Kotlin language** has no extra support for pure functions. 
 
-### **Overriding methods**
-```
-**Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
+- ### **Overriding methods** `[easy]`
+    **Overriding methods** is an OOP concept allowing to provide custom implementation of specific method by subclass or child class. A keyword override is also used for implementations of an interfaces.
 
-**Kotlin language** allows to provide default implementation strictly 
-```
+    **Kotlin language** allows to provide default implementation strictly 
 
-### **Overloading methods**
-```
-OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
-```
+- ### **Overloading methods** `[easy]`
+    OOP features allows to provide muliple methods with same name, and different signature. Methods have to containst difference number, or types of paramteres.
 
-### **Operator overloading** 
-```
-Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
-```
+- ### **Operator overloading**  `[medium]`
+    Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
 
-### **Composition approach**
-```
-Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
-```
+- ### **Composition approach** `[easy]`
+    Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
 
-### **Inheritence approach**
-```
-Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
-```
+- ### **Inheritence approach** `[easy]`
+    Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
 
-### **Abstraction concept**
-```
-Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
-```
 
-### **Encapsulation concept**
-```
-Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
-```
+- ### **Abstraction concept** `[easy]`
+    Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
 
-### **equals()**
-```
-One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
-```
+- ### **Encapsulation concept** `[easy]`
+    Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
 
-### **hashCode()**
-```
-TODO
-```
+- ### Method: **equals()** `[easy]`
+    One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
+
+- ### Methods: **hashCode()** `[easy]`
+    ```
+    TODO
+    ```
 
 ## **Backend JVM questions**
 
-### How`JVM` works
-```
-TODO
-```
+- ### How`JVM` works
+    TODO
 
-### `Garbage collector`
-```
-TODO
-```
+- ### **Garbage collector**
+    TODO
 
-### `Memory leak`
-```
-TODO
-```
+- ### **Memory leak** `[easy]`
+    Memory leak occures when allocated memory cannot be removed by Garbage collector in case when resource is not used. It could apppear when object holds reference to the object which should be deleted.
 
-### `LRU` cache
-```
-TODO
-```
+- ### **LRU cache** `[easy]`
+    LRU (Least Recently Used) is a concept of cache, where the oldest item is removed to create space to store new item. 
 
 ## Concepts
 
@@ -143,80 +112,54 @@ TODO
 TODO
 ```
 
-### `DNS`
-```
-Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
-```
+- ### **DNS** `[easy]`
+    Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
 
-### `Bandwidth`
-```
-Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
-```
+- ### **Bandwidth**
+    Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
 
-### `Latency` - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-```
-Latency is time needed to perform an action, or produce a result.
-```
+- ### **Latency** `[easy]` - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+    Latency is time needed to perform an action, or produce a result.
 
-### Throughput - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-```
-Throughput is a number of perfomred actions or produced results per unit of time.
-```
+- ### **Throughput** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+    Throughput is a number of perfomred actions or produced results per unit of time.
 
-### Distributed computer system problems - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-```
-Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
-```
+- ### **Distributed computer system problems** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+    Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
 
-### DCS: `Availability`
-```
-Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
-```
+- ### DCS: `Availability`
+    Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
 
-### DCS: `Consistency`
-```
-Consistency means that every client recevies last version of information or an error.
-```
+- ### DCS: `Consistency`
+    Consistency means that every client recevies last version of information or an error.
 
-### DCS: `Partition Tolerance`
-```
-TODO
-```
+- ### DCS: `Partition Tolerance`
+    TODO
 
-### `Percentile`
-```
-Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
-```
+- ### `Horizontal` scalling
+    Scalling by adding more servers to a poll of resources.
 
-### Code group 200 HTTP status 
-```
-Response codes 200+ mean Succesful repsonse. For example: 200 OK, 201 Created, 204 No Content. 
-```
+- ### `Vertical` scalling
+    Scalling by increasing capability of servers. 
 
-### Code group 300 HTTP status code group 
-```
-Repsonse codes 300+ mean Redirection messages. For example, 301 Moved Permanently, 302 Found, 304 Not Modified
-```
+- ### **Percentile** `[easy]`
+    Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
 
-### Code group 400 HTTP status code group 
-```
-Repsonse codes 400+ mean Client error responses. For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
-```
+- ### **Status code: 2XX** `[easy]`
+    - Response code 2XX means **Succesful repsonse**. 
+    - For example: 200 OK, 201 Created, 204 No Content. 
 
-### Code group 500 HTTP status code group
-```
-Response code 500+ means Server error response. For example, 500 Internal Server error, 503 Service Unavailable.
-```
+- ### **Status code: 3XX** `[easy]`
+    - Repsonse code 3XX means **Redirection messages**. 
+    - For example, 301 Moved Permanently, 302 Found, 304 Not Modified
 
-### `Horizontal` scalling
-```
-Scalling by adding more servers to a poll of resources.
-```
+- ### **Status code: 4XX** `[easy]`
+    - Repsonse code 4XX means **Client error responses**. 
+    - For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
 
-### `Vertical` scalling
-```
-Scalling by increasing capability of servers. 
-```
+### **Status code: 5XX** `[easy]`
+    - Response code 500+ means Server error response. 
+    - For example, 500 Internal Server error, 503 Service Unavailable.
 
 ## **Security**
 
