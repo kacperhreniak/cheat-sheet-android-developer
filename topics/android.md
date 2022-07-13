@@ -1,18 +1,26 @@
 # Android platform
 
-- ### **Typical `Tech Stack` of `Android App`**
-Architecture: MVVM, \
-Asynchronous: Kotlin Coroutines,\
-Networking: Retrofit, OkHttp,\
-UI: Jetpack Compose,\
-unit tests: mockk, mockito, JUnit, Robolectric\
-UI tests: espresso, Page Object,
+### **Typical `Tech Stack` of `Android App`**
+- Architecture: MVVM,
+- Asynchronous: Kotlin Coroutines,
+- Networking: Retrofit, OkHttp,
+- UI: Jetpack Compose,
+- unit tests: mockk, mockito, JUnit, Robolectric
+- UI tests: espresso, Page Object,
 
 ### **Activity Lifecycle** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
-`
-onCreate() - onstart() - on resume() - onPause() - onStop() - onDestroy()
-Lifecycle defines state of activity. Methods are used as collbacks invoke by the system 
-`
+
+Lifecycle defines state of activity. Methods are used as collbacks invoke by the system.
+ 
+Callbacks:
+- onCreate() 
+- onstart() 
+- onResume() 
+- onPause() 
+- onStop() 
+- onDestroy()
+
+
 
 ### **Fragment Lifecycle** - [more](https://developer.android.com/guide/fragments/lifecycle#states)
 onAttach(), onCreateView(), onViewCreated(), onDetach()
