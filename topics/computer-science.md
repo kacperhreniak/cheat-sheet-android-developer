@@ -30,40 +30,40 @@ OOP features allows to provide muliple methods with same name, and different sig
 ### **∙ Operator overloading** `medium`
 Operator overloading allows to provide custom implementation for operators, for example, get(), set(), +, -, in, as, invoke. Operator is defined by `operator` keyword, but it could be omit overriding operator.
 
-- ### **Composition approach** `[easy]`
-    Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
+### **∙ Composition approach** `[easy]`
+Fundamental concept of OOP describes class wirh the references to other objects. Sometimes compositions is the only way to extend final class from external library. Compositions allows to add new features or expand class.
 
-- ### **Inheritence approach** `[easy]`
-    Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
+### **∙ Inheritence approach** `[easy]`
+Fundamental concept of OOP, it allows to inherit class to provide extended features or override methods from base class. To use inheritance class has to be open or abstract.
 
 
-- ### **Abstraction concept** `[easy]`
-    Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
+### **∙ Abstraction concept** `[easy]`
+Additional layer is a concept of hidding specific implementations and allows to impelment code based only on general interfaces. Abstraction focuses on is a great concept to design features and focus on what should be done. Mostly implement by interfaces.
 
-- ### **Encapsulation concept** `[easy]`
-    Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
+### **∙ Encapsulation concept** `[easy]`
+Encapsulation is a concept to hide data, by control an access to the properties by visible modifiers. Property aren't easily achievable insted of it are hidden by the getter and setters. Encapsulation is more focused on: how should be done.
 
-- ### Method: **equals()** `[easy]`
-    One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
+### **∙** Method: **equals()** `[easy]`
+One of the basic methods from class Any in złotlin. Used to compare two objectes. equals() methods should be compatible with hashCode() method. data class generates implementation of equals method basing on parameters in a constructor.
 
-- ### Methods: **hashCode()** `[easy]`
-    ```
-    TODO
-    ```
+### **∙** Methods: **hashCode()** `[easy]`
+```
+TODO
+```
 
 ## **Backend JVM questions**
 
-- ### How`JVM` works
-    TODO
+### **∙ How `JVM` works**
+TODO
 
-- ### **Garbage collector**
-    TODO
+### **∙ Garbage collector**
+TODO
 
-- ### **Memory leak** `[easy]`
-    Memory leak occures when allocated memory cannot be removed by Garbage collector in case when resource is not used. It could apppear when object holds reference to the object which should be deleted.
+### **∙ Memory leak** `[easy]`
+Memory leak occures when allocated memory cannot be removed by Garbage collector in case when resource is not used. It could apppear when object holds reference to the object which should be deleted.
 
-- ### **LRU cache** `[easy]`
-    LRU (Least Recently Used) is a concept of cache, where the oldest item is removed to create space to store new item. 
+### **∙ LRU cache** `[easy]`
+LRU (Least Recently Used) is a concept of cache, where the oldest item is removed to create space to store new item. 
 
 ## Concepts
 
@@ -112,164 +112,123 @@ TODO
 TODO
 ```
 
-- ### **DNS** `[easy]`
-    Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
+### **∙ DNS** `[easy]`
+Domain Name System is a hierarchical and decentralized system to translate human readble names of websites to machine readable IP addresses.
 
-- ### **Bandwidth**
-    Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
+### **∙ Bandwidth**
+Bandwidth is a maximum number of data able to transfer over the internet, or a system in a given amount of time - calculated in megabits per second (Mbps).
 
-- ### **Latency** `[easy]` - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-    Latency is time needed to perform an action, or produce a result.
+### **∙ Latency** `[easy]` - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+Latency is time needed to perform an action, or produce a result.
 
-- ### **Throughput** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-    Throughput is a number of perfomred actions or produced results per unit of time.
+### **∙ Throughput** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+Throughput is a number of perfomred actions or produced results per unit of time.
 
-- ### **Distributed computer system problems** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
-    Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
+### **∙ Distributed computer system problems** - [more](https://www.google.com/travel/flights/s/cvgnXB1S7HrUwqVi6)
+Distributed computer system is only available to support 2 of 3 guarantees: availablity, consisency or portition tolerance. Internet connection isn't realible, soo partion tolerance is must have and availablity or consistency.
 
-- ### DCS: `Availability`
-    Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
+### **∙ DCS: `Availability`**
+Availablity means that every client making a request for data receives a response, even if some nodes are down. There is no guarantee that response consist of last know version of information.
 
-- ### DCS: `Consistency`
-    Consistency means that every client recevies last version of information or an error.
+### **∙ DCS: `Consistency`**
+Consistency means that every client recevies last version of information or an error.
 
-- ### DCS: `Partition Tolerance`
-    TODO
+### **∙ DCS: `Partition Tolerance`**
+TODO
 
-- ### `Horizontal` scalling
-    Scalling by adding more servers to a poll of resources.
+### **∙ `Horizontal` scalling**
+Scalling by adding more servers to a poll of resources.
 
-- ### `Vertical` scalling
-    Scalling by increasing capability of servers. 
+### **∙ `Vertical` scalling**
+Scalling by increasing capability of servers. 
 
-- ### **Percentile** `[easy]`
-    Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
+### **∙ Percentile** `[easy]`
+Percentil is an indicator defines thet specific percentage of values is under or equal to specific score. For exmaple, 95th percentil means that 95 percentage of values are below specific value. 
 
-- ### **Status code: 2XX** `[easy]`
-    - Response code 2XX means **Succesful repsonse**. 
-    - For example: 200 OK, 201 Created, 204 No Content. 
+### **∙ Status code: 2XX** `[easy]`
+- Response code 2XX means **Succesful repsonse**. 
+- For example: 200 OK, 201 Created, 204 No Content. 
 
-- ### **Status code: 3XX** `[easy]`
-    - Repsonse code 3XX means **Redirection messages**. 
-    - For example, 301 Moved Permanently, 302 Found, 304 Not Modified
+### **∙ Status code: 3XX** `[easy]`
+- Repsonse code 3XX means **Redirection messages**. 
+- For example, 301 Moved Permanently, 302 Found, 304 Not Modified
 
-- ### **Status code: 4XX** `[easy]`
-    - Repsonse code 4XX means **Client error responses**. 
-    - For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
+### **∙ Status code: 4XX** `[easy]`
+- Repsonse code 4XX means **Client error responses**. 
+- For example, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 409 Business error.
 
-### **Status code: 5XX** `[easy]`
-    - Response code 500+ means Server error response. 
-    - For example, 500 Internal Server error, 503 Service Unavailable.
+### **∙ Status code: 5XX** `[easy]`
+- Response code 500+ means Server error response. 
+- For example, 500 Internal Server error, 503 Service Unavailable.
 
 ## **Security**
 
-### **SSL**
-```
+### **∙ SSL**
 Secure Socket Layer
-```
 
-### **TLS**
-```
+### **∙ TLS**
 Transport Layer Security
-```
 
-### `SSL pining`
-```
+### **∙ SSL pining**
 TODO
-```
 
-### `JWT Token`
-```
+### **∙ JWT Token**
 TODO
-```
 
-### `OAuth`
-```
+### **∙ OAuth**
 TODO
-```
 
-### `refresh token`
-```
+### **∙ refresh token**
 TODO
-```
 
-### `access token`
-```
+### **∙ access token**
 TODO
-```
 
 
 ## **Architecture**
 
-### `Model` in architectures
-```
+### **∙ `Model` in architectures** `easy`
 Model layer provides data to the system. This layer consists of repositories, use cases. It isn't just a model as an object, but all classes provide this object. 
-```
 
-### `View` in architectures
-```
+
+### **∙ `View` in architectures** `easy`
 View is a presentation layer. This layer consists of all classes connected to UI, View. For example on Android platform, the View part could be activity, fragment, xml file, method annotated as composable.
-```
 
-### `ViewModel` in MVVM architecture
-```
+### **∙ `ViewModel` in MVVM architecture** `easy`
 TODO
-```
 
-### `Presenter` in architecture
-```
+### **∙ `Presenter` in architecture** `easy`
 TODO
-```
 
-### `MVVM` architecture
-```
+### **∙ `MVVM` architecture** `easy`
 Model, View, ViewModel
-```
 
-### `MVP` architecture
-```
+### **∙ `MVP` architecture** `easy`
 Model, View, Presenter
-```
 
-### `MVI` architecture
-```
+### **∙ `MVI` architecture**
 Model, View, Intent
-```
 
-### `Redux` architecture
-```
+### **∙ `Redux` architecture**
 TODO
-```
 
-### Enumarate `SOLID` principles
-```
+### **∙ Enumarate `SOLID` principles** `easy`
 Single responsobility, Open/Close, Liskov substitution principle, Interface segregation, Dependency inversion
-```
 
-### SOLID: `Single responsibility principle`
-```
+### **∙ SOLID: Single responsibility principle** `easy`
 There should never be more than one reason for a class to change. In other words, every class should have only one responsibility.
-```
 
-### SOLID: `open/close principle`
-```
+### **∙ SOLID: open/close principle** `easy`
 Class is open for extension, and closed for modification.
-```
 
-### SOLID: `Liskov substitution principle`
-```
+### **∙ SOLID: Liskov substitution principle**
 TODO
-```
 
-### SOLID: `Interface segregation`
-```
+### **∙ SOLID: Interface segregation** `easy`
 Many specific interafces are better than single interafce with many responsibilites.
-```
 
-### SOLID: `Dependency inversion`
-```
+### **∙ SOLID: Dependency inversion** `easy`
 High level class shouldn't depends on low level implementation instead of it the class should based on abstraction layers.
-```
 
 ## **Protocols**
 
@@ -293,11 +252,9 @@ TODO
 TODO
 ```
 
-### **Protocol: RTMP** 
-```
-Real-Time Messaging Protocol
+### **Protocol: RTMP** `advanced`
+- Real-Time Messaging Protocol
+- Example of use: LiveStreaming
 
-Example of use: LiveStreaming
-```
 
 ## **Code example**
