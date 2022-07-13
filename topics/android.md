@@ -2,8 +2,20 @@
 
 ### **Typical `Tech Stack` of `Android App`**
 ```
-TODO
+Architecture: MVVM,
+Asynchronous: Kotlin Coroutines,
+Networking: Retrofit, OkHttp,
+UI: Jetpack Compose
+unit tests: mockk, mockito, JUnit, Robolectric
+UI tests: espresso, Page Object,
 ```
+
+Architecture: MVVM, \
+Asynchronous: Kotlin Coroutines,\
+Networking: Retrofit, OkHttp,\
+UI: Jetpack Compose,\
+unit tests: mockk, mockito, JUnit, Robolectric\
+UI tests: espresso, Page Object,
 
 ### **Activity Lifecycle** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 ```
