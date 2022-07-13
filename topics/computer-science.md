@@ -23,11 +23,9 @@ TODO
 ## **OOP questions**
 
 ### **Pure function** 
-```
 **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
 **Kotlin language** has no extra support for pure functions. 
-```
 
 ### **Overriding methods**
 ```
