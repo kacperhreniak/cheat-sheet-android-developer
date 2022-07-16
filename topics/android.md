@@ -1,6 +1,6 @@
 # Android platform
 
-### **Typical `Tech Stack` of `Android App`**
+### **Typical Tech Stack of Android App** `easy`
 - Architecture: MVVM,
 - Asynchronous: Kotlin Coroutines,
 - Networking: Retrofit, OkHttp,
@@ -37,12 +37,18 @@ Lifecycle aware means that object is aware of the activity or fragment lifecycle
 ### **Lifecycle: When Activity has focus** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 onResume()
 
-
 ### **Lifecycle: orientation changed** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 Acitivty is destroyed and creaetd again. All callbacks till onDestroy() are invoked, and then onCreate() is called again.   
 
 ### **What's a Module**
 Module is a set of files compiled together, for example, Module created via Intelij IDE. Dividing code into small modules could optimize build time.
+
+### **Enumarate activity launch modes** `easy` - [more]()
+Standarad, SingleTop, Single Task, SingleInstance
+
+### **Activity launch mode: SingeTask** `easy`
+### **Activity launch mode: SingleTask** `easy`
+### **Activity launch mode: SingleInstance** `easy`
 
 ### **Pros of Modularization**
 ```
