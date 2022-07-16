@@ -1,6 +1,6 @@
 # Android platform
 
-### **Typical Tech Stack of Android App** `easy`
+### **Tech Stack of Android App** `easy`
 - Architecture: MVVM,
 - Asynchronous: Kotlin Coroutines,
 - Networking: Retrofit, OkHttp,
