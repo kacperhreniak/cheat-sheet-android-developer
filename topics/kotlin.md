@@ -1,9 +1,7 @@
 # Kotlin
 
 ### **object**
-```
 Object declaration is way to handle singleton in Kotlin. Object is available globally - there is no local value and object cannot be used as right assigment statement. Inialization of object is done on firs access.
-```
 
 ### **companion object**
 companion object is used to object declaration inside class. Name of the companion object can be omitted and outer class is used as qulifier.

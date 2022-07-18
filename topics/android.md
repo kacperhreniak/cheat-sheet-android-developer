@@ -1,6 +1,6 @@
 # Android platform
 
-### **Tech Stack of Android App** `easy`
+### **Tech Stack of Android App** `basic`
 - Architecture: MVVM,
 - Asynchronous: Kotlin Coroutines,
 - Networking: Retrofit, OkHttp,
@@ -8,7 +8,7 @@
 - unit tests: mockk, mockito, JUnit, Robolectric
 - UI tests: espresso, Page Object,
 
-### **Activity Lifecycle** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
+### **Activity Lifecycle** `basic` - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc) 
 
 Lifecycle defines state of activity. Methods are used as collbacks invoke by the system.
  
@@ -20,19 +20,18 @@ Callbacks:
 - onStop() 
 - onDestroy()
 
-### **Fragment Lifecycle** - [more](https://developer.android.com/guide/fragments/lifecycle#states)
+### **Fragment Lifecycle** `basic` - [more](https://developer.android.com/guide/fragments/lifecycle#states)
 Callbacks:
 - onAttach(), 
 - onCreateView(), 
 - onViewCreated(),
 - onDetach()
 
-### Lifecycle: when Activity is visible - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
+### **Lifecycle: when Activity is visible** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 onStart() 
 
 ### **Lifecycle aware**
 Lifecycle aware means that object is aware of the activity or fragment lifecycler, and we can assume that all events are happend only when LifecyclerOwner is able to rander, handel it.
-
 
 ### **Lifecycle: When Activity has focus** - [more](https://developer.android.com/guide/components/activities/activity-lifecycle#alc)
 onResume()
@@ -43,26 +42,22 @@ Acitivty is destroyed and creaetd again. All callbacks till onDestroy() are invo
 ### **What's a Module**
 Module is a set of files compiled together, for example, Module created via Intelij IDE. Dividing code into small modules could optimize build time.
 
-### **Enumarate activity launch modes** `easy` - [more]()
+### **Enumarate activity launch modes** `basic` - [more]()
 Standarad, SingleTop, Single Task, SingleInstance
 
-### **Activity launch mode: SingeTask** `easy`
-### **Activity launch mode: SingleTask** `easy`
-### **Activity launch mode: SingleInstance** `easy`
+### **Activity launch mode: SingeTask** `basic`
+### **Activity launch mode: SingleTask** `basic`
+### **Activity launch mode: SingleInstance** `basic`
 
 ### **Pros of Modularization**
-```
 TODO
-```
 
 ### **Gradle: `api` and `implementation`**
 - **api** is used when dependency is used as input of outpuf for interfaces, classes visibile from ohers modules.
 - **implementation** is used for adding dependecies requried only for in-module purpose 
  
 ### **Memory leaks in Android**
-```
 TODO
-```
 
 ## Buil project
 
@@ -79,80 +74,51 @@ The file is generated when building the project to map the obfuscated names. It 
 Obfuscation is a process to renamed all classes, functions or variables to simple, unreadable name to improve prevetion to reverse engeineer
 
 ### **Lint**
-```
 TODO
-```
 
 ### **Detekt**
-```
 TODO
-```
 
 ### **Suppress**
 Annotation with a name of compiler diagnostices to being ommited. For example: @Suppress("DEPRECATION")
 
 ### How to handle `Process` and `Thread` in Android app?
-```
 TODO
-```
 
 ## **User Interface**
 
-### Describe an `imperative way` to define UI
-```
-TODO
-```
+### **RecyclerView concept** `basic`
+RecyclerView is a UI component to present list of items using concept of recyclering views. RecycelerView creates small number of ViewHolders, and reuse it to bind incoming items. The number isn't specific. It depends how many items could be present on the screen, and additional one or two view to prepare data.
 
-### Describe a `declarative way` to define UI
-```
-TODO
-```
+### RecyclerView: **DiffUtil** 
+DiffUtil is a tool to optimize binding data using extra methods to define if view is the same as before, and has the same content as previouse.
 
-### `Jetpack compose`
-```
-TODO
-```
+Methods: `areItemsTheSame` and `areContentsTheSame`
 
-### Describes libraries in Jetpack
-```
+### **Jetpack compose**
 TODO
-```
+
+### Enumerate Jetpack's libraries
+TODO
 
 ## **Store data**
 
 ### **DataStore**
-```
 TODO
-```
 
 ### **Shared preferences**
-```
 TODO
-```
-
-### **Room**
-```
-TODO
-```
-
-### **SQLite**
-```
-TODO
-```
 
 ## **Jetpack**
 
 ### **WorkManager**
-```
 TODO
-```
 
 ### **JobScheduler**
-```
 TODO
-```
 
 ### **Jetpack compose**
-```
 TODO
-```
+
+### **Room**
+TODO
