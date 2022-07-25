@@ -31,6 +31,7 @@ TODO
 - Network interface layer: `Ethernet`, `Token Ring`
 
 ## **OOP questions**
+
 ### **Pure function** `easy`
 **Pure Function** provides a result based only on arguments. There is no side effects, no state changes, so it could be run thousands, millions times with same result each time.
 
@@ -84,20 +85,14 @@ LRU (Least Recently Used) is a concept of cache, where the oldest item is remove
 
 ## Concepts and Design Paterns
 
-### `Dependecy Injection` pattern
-```
+### **Dependecy Injection**
 TODO
-```
 
-### `Service Locator` pattern
-```
+### **Service Locator**
 TODO
-```
 
 ### `Continous Integration`
-```
 TODO
-```
 
 ### `Continous Delivery`
 ```
@@ -261,9 +256,7 @@ High level class shouldn't depends on low level implementation instead of it the
 ## **Protocols**
 
 ### **Protocol: HTTP**
-```
 TODO
-```
 
 ### **Protocol: TCP** `easy` - [more](https://subspace.com/resources/tune-tcp-udp-performance)
 TCP (*Transmission Control Protocol*) - is a connection-oriented protocol over an IP network. Connection is established and terminated using a handshake. All packets sent are guaranteed to reach the destination in the original order.
@@ -272,9 +265,7 @@ TCP (*Transmission Control Protocol*) - is a connection-oriented protocol over a
 UDP (User Datagram Protocol) is connectionless. Datagrams (analogous to packets) are guaranteed only at the datagram level. Datagrams might reach their destination out of order or not at all. UDP does not support congestion control. Without the guarantees that TCP support, UDP is generally more efficient.
 
 ### **Protocol: SSH**
-```
 TODO
-```
 
 ### **Protocol: RTMP** `advanced`
 - Real-Time Messaging Protocol

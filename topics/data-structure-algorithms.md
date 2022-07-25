@@ -110,6 +110,13 @@ Adjacency list, mostly time, requries less memory space than adjacency matrix.
 ### Pros of adjacency matrix:
 https://www.programiz.com/dsa/graph-adjacency-matrix
 
+## **Design patterns**
+
+### **Factory method** `easy`
+
+### **Builder** `easy`
+allows to create different representations of an object. For example, 
+
 ## **Tasks**
 ### Bellamn Ford's algortihm
 TODO
