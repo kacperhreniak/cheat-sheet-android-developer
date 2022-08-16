@@ -76,7 +76,7 @@ Queue
 ### **Dynamic Programming**
 TODO
 
-### **Dizel i zwyciezaj**
+### **Dziel i zwyciezaj**
 TODO
 
 ## **Graphs**
@@ -118,7 +118,11 @@ https://www.programiz.com/dsa/graph-adjacency-matrix
 allows to create different representations of an object. For example, 
 
 ## **Tasks**
-### Bellamn Ford's algortihm
+### Bellamn Ford's algorithm
+TODO
+
+### Ford-Fulkerson algorithm
+Algorithm to compute maximum flow in flow netowrk/graph.
 TODO
 
 ## Ideas to reslove Alghoritm or Data structure for problem:
@@ -127,4 +131,6 @@ TODO
 Answer: Put all item to minimum `Heap` and the get first Kth elements
 
 ### **Valid parenthesis**
-Answer: Use a `Stack` to put all open parenthesis, and get close parenthesis.  
+Answer: Use a `Stack` to put all open parenthesis, and get close parenthesis. 
+
+
