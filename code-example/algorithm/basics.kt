@@ -24,4 +24,4 @@ stack.addFirst() // add item on the top of this stack
 stack.removeFirst() // revemo item from the top of this stack
  
 // Priority queue
-val queue = PriorityQueue<EdgePoint> { firstItem, secondItem -> o1.cost - o2.cost }
+val queue = PriorityQueue<EdgePoint> { firstItem, secondItem -> firstItem.cost - secondItem.cost }
