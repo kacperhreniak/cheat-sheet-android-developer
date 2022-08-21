@@ -81,7 +81,10 @@ TODO
 
 ## **Graphs**
 ### **strongly connected components**
-Strongly connecte components are FI~XME means that in graph exists subgraph where all vertex are achivable.To find all of them se a Kosaraju's Algorithm - time complexity is O(V+E). This term is applicable only to directed graphs.
+Strongly connected components is a subgraph in a graph, in which exists path from each vertex to another vertex.
+
+### **strongly connected graph**
+Strongly connected graph is a graph, in which exists path from each vertex to another vertex.
 
 ### **connected graph**
 Connected graph is a graph, where each node is a port of same graph. All nodes (vertexes) have edge to the other node (vertex) in the same graph.
@@ -117,13 +120,39 @@ https://www.programiz.com/dsa/graph-adjacency-matrix
 ### **Builder** `easy`
 allows to create different representations of an object. For example, 
 
-## **Tasks**
+## **Algorithm**
+
+### Dijkstra's algorithm
+Algorithm use to find short path for single source to each vertex in a graph without negative edges. This algorithm is similar to Prime's algoritihm. Time complexity is O((V+E) log V)
+
 ### Bellamn Ford's algorithm
-TODO
+Algorithm use to find short path for single source to each vertex in a graph with negative edges, but withou negative cycle. There is at most V - 1 iterations, and we coulde optimize algorithm by detect that in current iterations there wasn't any chcange. Time complexity is O(VE)
+
+### Floyd Wharshall's alorithm
+TODO: Algorithm to find shorte paths from each vertex to other in a graph.
+
+### Kosaraju's alorithm
+Algorithm to find all strongly connected components with time complexity O(V+E). This alogrithm is applicable only to directed graph. Steps of the algorithm:
+  1. DFS on a graph and add vertex to a stack starting from the end.
+  2. Revers edges in directed graph
+  3. Call DFS for vertex getting one by one from the stack
+  4. Each successful DFS traversal is an single strongly connected graph.
 
 ### Ford-Fulkerson algorithm
 Algorithm to compute maximum flow in flow netowrk/graph.
-TODO
+
+### Kruskal's algorithm
+Alogrithm to find minimum spanning tree with time complexity O(E log E). Steps of the algorithm:
+1. Sort edges ascending - you could use PriorityQueue
+2. Take an edge with the lowest value with condition that one of vertex is not visited
+3. Repeate until visiting all vertexes
+
+### Primes's algorithm
+Alogrithm to find minimum spanning tree with time complexity O((V+E) log V). Steps of the algorithm:
+1. Sort all edges for first vertex - you can use PriorityQueue
+2. Take the edge with minimum value and add to all edges for visited vertex
+3. Take the edege with minim lowest edege with contidion that one of the vertex is unvisited
+4. Repeat unitl visiting all vertexes
 
 ## Ideas to reslove Alghoritm or Data structure for problem:
 
