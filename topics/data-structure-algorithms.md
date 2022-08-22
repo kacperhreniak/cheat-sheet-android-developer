@@ -144,6 +144,10 @@ Algorithm to find all strongly connected components with time complexity O(V+E).
   3. Call DFS for vertex getting one by one from the stack
   4. Each successful DFS traversal is an single strongly connected graph.
 
+### Tarjan's alorithm
+Algorithm to find all strongly connected components with time complexity O(V+E), applicable to directed graph.
+[TBA]
+
 ### Ford-Fulkerson algorithm
 Algorithm to compute maximum flow in flow netowrk/graph.
 
