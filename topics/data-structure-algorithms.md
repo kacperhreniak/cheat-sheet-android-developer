@@ -92,6 +92,12 @@ Connected graph is a graph, where each node is a port of same graph. All nodes (
 ### **unidirected graph**
 Unidirected graph is a graph with edges without any specific direction. each edge is bidirectional.
 
+### **articulation point** or **cut vertex**
+The vertex is an articaulation point, when removing it and associated edges disconnects the graph.
+
+### **bridge**
+FIXME: It's an edge in a graph, which removing it increases number of connected component - verify ME 
+
 ### **spanning tree**
 Spanning tree is a minimum set of edges to connect all vertes in a single connected graph. 
 
