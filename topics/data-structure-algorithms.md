@@ -20,13 +20,13 @@ Time Complexity defines time taken by the algorithm to complete its execution.
 Space complexity defines space needed by the alorithm during the execution. 
 
 ### **Data structure: Stack**
-TODO
+It's a data structure which implements LIFO (last in, first out) approach.
 
 ### **Data structure: Trie**
 TODO
 
 ### **Data structure: Heap**
-TODO
+Heap is a specific tree data structure, where a max or a min value is in the root, so time complexity to get min or max value is constant O(1). Heap coule be implemented by using array.  
 
 ### **Data structure: Read/Black Tree**
 TODO
@@ -38,13 +38,14 @@ Get first item from an array. Time complexity - O(1)
 It's a type of Tree Data Structure. Each node has maximum 2 children nodes, A value in the left child is less then value in root node, and value in right child is greater then value in root node. 
 
 ### **Data structure: HashMap**
-TODO
+HashMap is a key - value data structure, where time to get value is constant - time complexity O(1) using `hashing` technique.  
 
 ### **Hashing**
+
 TODO
 
-### **Handling `collision` in `HashMap`**
-TODO
+### **Handling `collision` in `hashing`**
+
 
 ### `Time complexity` of getting object from HashMap
 Constant time - O(1).
@@ -65,21 +66,34 @@ Posorder traversal first visit left child, then right child, and current node.
 Depth-first search
 
 ### **BFS** 
-Breadth-first search
+Breadth-first
 
 ### **DFS: data structure**
-Stack - during traversal push/pop node from/to the stack
+Stack
 
 ### **BFS: data structure**
 Queue
 
 ### **Dynamic Programming**
-TODO
+It's a technique to resolve problem by calculate result of subproblem, and then use it calculate the result of the problem.
 
-### **Dziel i zwyciezaj**
-TODO
+### **Divide and conquer**
+It's a technique to resolve problem by divide problem into smaller subproblem, calculate a result, and combine results into the result of the problem.  
 
 ## **Graphs**
+
+### **Eulerian path**
+It's a path passes throught all nodes exactly once.
+
+### **Eulerian cycle**
+It's a Eulerian path which is a cycle.
+
+### **Hamilton path**
+It's a path which visit all vertex exactly once.
+
+### **Hamilton cycle**
+It's a Hamilton path which a cycle, so begins and ends in the same vertex.
+
 ### **strongly connected components**
 Strongly connected components is a subgraph in a graph, in which exists path from each vertex to another vertex.
 
@@ -97,6 +111,15 @@ The vertex is an articaulation point, when removing it and associated edges disc
 
 ### **bridge**
 FIXME: It's an edge in a graph, which removing it increases number of connected component - verify ME 
+
+### `maximum flow`
+It's a maximum flow of a graph, from single source/vertex to sink (which could be a representant of single or multiple vertex). Ford-Fulkerson algorithm could be used to find maximum flow with time complexity  
+
+### **Augementing path**
+It's a path from source to sink increasing maximum flow.
+
+### **Residual edge** / **Residual graph**
+hmmmmm
 
 ### **spanning tree**
 Spanning tree is a minimum set of edges to connect all vertes in a single connected graph. 
@@ -149,7 +172,7 @@ Algorithm to find all strongly connected components with time complexity O(V+E),
 [TBA]
 
 ### Ford-Fulkerson algorithm
-Algorithm to compute maximum flow in flow netowrk/graph.
+Algorithm to compute maximum flow in flow network/graph.
 
 ### Kruskal's algorithm
 Alogrithm to find minimum spanning tree with time complexity O(E log E). Steps of the algorithm:
@@ -171,5 +194,3 @@ Answer: Put all item to minimum `Heap` and the get first Kth elements
 
 ### **Valid parenthesis**
 Answer: Use a `Stack` to put all open parenthesis, and get close parenthesis. 
-
-
