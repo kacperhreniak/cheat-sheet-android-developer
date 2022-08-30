@@ -6,11 +6,11 @@
 ## Protocols
 
 ## Calculations
-- 1 kB = 1000 B = 10^3 B \
-- 1 MB = 1000 kB = 10^6 B \
-- 1 GB = 1000 MB = 10^9 B \
-- 1 TB = 1000 GB = 10^12 B \
-- 1 PB = 1000 TB = 10^15 B \
+- 1 kB = 1000 B = 10^3 B
+- 1 MB = 1000 kB = 10^6 B
+- 1 GB = 1000 MB = 10^9 B
+- 1 TB = 1000 GB = 10^12 B
+- 1 PB = 1000 TB = 10^15 B
 - 1 EB = 1000 PB = 10^18 B 
 
 #### **Basic sizes**
@@ -36,7 +36,18 @@ summary of all resolution could be estimated as 2X MB
 
 #### Some important assumptionts
 - Seconds in a day: 60 sec x 60 min x 24 hours = 86 400 sec ~= 100 000 sec/day
-- 
+
+#### Latency numbers:
+- 0.5 ns : L1 cache
+- 14 ns : L2 cache (14x L1 latency)
+- 100 ns : L3 cache (20x L2 latency, or 200x L1 latency)
+- 10 us: send 1KB over 1Gbps network
+- 150 us: 4KB read from SSD
+- 250 us: 1MB from memory
+- 500 us: round trip within same data center
+- 1 ms: read 1MB from SSD (4x memory)
+- 10 ms: read 1 MB from 1 Gbps (40x memory, 10x SSD)
+- 30 ms read 1 MB from HDD (120x memory, 30x SSD)
 
 ### **Example of calculations**
 ```
