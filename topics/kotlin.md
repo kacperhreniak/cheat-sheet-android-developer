@@ -68,6 +68,9 @@ Features build in Kotlin to add new functionality to class without inherit from 
 ### **Extension are resolved statically**
 Extension is not adding new memeber into a class, so it's strongly connected to the specific type. Extensions are not inherited FIXME!!!! 
 
+### **Tail recursive functions** - [more](https://kotlinlang.org/docs/functions.html#tail-recursive-functions)
+Function with modifier `tailrec` allows to optimization code by using a special function instead of typically function invocation - it prevents application from occuring stack overflow. The last line of the function required to by only invocation without additional calculation.
+
 ### **scope function**
 Example of answers
 
