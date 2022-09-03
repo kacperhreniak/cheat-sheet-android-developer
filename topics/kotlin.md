@@ -49,9 +49,7 @@ Inline function shouldn't be an option for a big functions, because of huge incr
 First, using lambda as inline function optimize createing and reducing object of lambda. The optimization could be noticed for lambda call in loop thousands of time. Second, when lambda use a property from the scope of lambda expression, under the hood it create new class with this proeprty as argument, so it isn't optimal solution when lambda is called in a loop. Inline function allows to prevent against cases like this. 
 
 ### **inline class** - [more](https://kotlinlang.org/docs/inline-classes.html)
-```
 Inline class is used to create wrapping class with benefits of primitive values. To create inline class use `value` keyword with a single property. Using: wrapper for string to create self explanation class for example: `value class Name(val title: String)`. In compile time this class will be represented by String type.
-```
 
 ### **lambad and return expression**
 Return expression is only possible for lambda expression defined as inline function.
@@ -64,6 +62,18 @@ Lambda is a function which is not decalred, but passed as expression. Under the 
 
 ### **extension function** - [more](https://kotlinlang.org/docs/extensions.html)
 Features build in Kotlin to add new functionality to class without inherit from the class or using extra design patterns. Extensions are resolved statically. 
+
+### **local function** - [more](https://kotlinlang.org/docs/functions.html#local-functions)
+Local function is a functions places insied other function
+
+### **member function** - [more](https://kotlinlang.org/docs/functions.html#member-functions)
+Member function is just a function defined in class or object
+
+### **infix notation** - [more]
+infix notation allows to omit dot and parenthesis during invoking function. Function with infix notation must follow incoming requirements: 
+1. single parameter,
+2. it has to be memebre or extension function,
+3. the parameter cannot be a vararg or parameter with default value.
 
 ### **Extension are resolved statically**
 Extension is not adding new memeber into a class, so it's strongly connected to the specific type. Extensions are not inherited FIXME!!!! 
