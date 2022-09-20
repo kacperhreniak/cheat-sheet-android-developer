@@ -14,3 +14,4 @@
 ## Sources
 - [System desing primer](https://github.com/donnemartin/system-design-primer#the-system-design-primer) - questions related to computer science, data structure, alghoritms, and system desing. 
 - [Kotlin documentations](https://kotlinlang.org/) - all knowledge realted to kotlin langauge, for example, basics, coroutines, flow, etc
+- [Mobile system design](https://github.com/weeeBox/mobile-system-design)
