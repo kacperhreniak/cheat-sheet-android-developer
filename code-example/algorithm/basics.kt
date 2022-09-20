@@ -8,6 +8,7 @@ queue.add() /* or */ queue.addLast() // add item at the end of this queue
 queue.removeFirst() // get first item from list
 
 val queue = PriorityQueue() // priority queue also implement deque interface, so it could be used as stack or queue
+val pq: PriorityQueue<Pair<Int, Int>> = PriorityQueue(k, compareBy { -it.second }) // more kotlin way
 // API same as above
 
 // Stack implementation
