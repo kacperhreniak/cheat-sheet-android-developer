@@ -167,7 +167,7 @@ Algorithm to find all strongly connected components with time complexity O(V+E).
   3. Call DFS for vertex getting one by one from the stack
   4. Each successful DFS traversal is an single strongly connected graph.
 
-### Tarjan's alorithm
+### Tarjan's algorithm
 Algorithm to find all strongly connected components with time complexity O(V+E), applicable to directed graph.
 [TBA]
 
@@ -186,6 +186,15 @@ Alogrithm to find minimum spanning tree with time complexity O((V+E) log V). Ste
 2. Take the edge with minimum value and add to all edges for visited vertex
 3. Take the edege with minim lowest edege with contidion that one of the vertex is unvisited
 4. Repeat unitl visiting all vertexes
+
+### Floyd's cycle detection
+Alogrithm to find position/graph/index of a begining of a cycle. Time complexity O(2N) and Space complexity O(1)
+1. initialize to index slow, and fast
+2. Iterate over linkedList, array by get next item for slow index, and item after the item for fast index
+3. If indexes are equal remeber the fast index, and set slow index to 0.
+3.1 If fast index is null - no cycle in the arary/linkedlies
+4. Continue iteration increasing both index by 1.
+5. If slow and fast items are equal it means that you found the begining of the cycle.
 
 ## Ideas to reslove Alghoritm or Data structure for problem:
 
